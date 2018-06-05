@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { conect } from 'react-redux';
-import { FETCH_POSTS } from '../actions';
+import { connect } from 'react-redux';
+import { fetchPosts } from '../actions';
 
 class PostsIndex extends Component {
     componentDidMount() {
